@@ -1,0 +1,30 @@
+Step 1:
+ 
+sudo apt update
+
+step 2:
+
+apt install python3-pip
+
+pip install requests argparse
+
+step 3: 
+ as per request Created country_lookup.py
+ as per request converted Save the data from https://www.travel-advisory.info/api to a file called
+data.json and add functionality to your program to work with a file instead of
+real api endpoint
+
+step 4: Make sure your program supports multiple country codes as input
+
+OUTPUT:
+
+root@ip-172-31-32-210:/home/ubuntu# python3 country_lookup.py --countryCodes AU NE AG AI AL CD CF DJ DK
+AU: Australia
+NE: Niger
+AG: Antigua and Barbuda
+AI: Anguilla
+AL: Albania
+CD: Democratic Republic of the Congo
+CF: Central African Republic
+DJ: Djibouti
+DK: Denmark
